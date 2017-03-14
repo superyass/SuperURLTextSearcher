@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 public class Main {
 
     @Parameter(names = {"-input", "-in"}, description = "Input folder :")
-    private static String inputFolder = "C:\\Users\\SuperYass\\Desktop\\MSI\\apks\\jumiafood\\com";
+    private static String inputFolder = "C:\\";
 
     @Parameter(names = {"-search", "-s"}, description = "comma separated search keywords")
     private static List<String> search;
